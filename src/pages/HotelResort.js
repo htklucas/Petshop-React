@@ -1,6 +1,8 @@
 function HotelResort() {
     return (
-        <div></div>
+        <div>
+            <h1>hotel resort</h1>
+        </div>
     );
 }
 

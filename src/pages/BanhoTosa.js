@@ -1,6 +1,8 @@
 function BanhoTosa() {
     return (
-        <div></div>
+        <div>
+            <h1>banho e tosa</h1>
+        </div>
     );
 }
 

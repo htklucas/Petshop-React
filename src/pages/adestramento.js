@@ -1,6 +1,8 @@
 function Adestramento() {
     return (
-        <div></div>
+        <div>
+            <h1>adestramento</h1>
+        </div>
     );
 }
 
