@@ -20,7 +20,6 @@ function App() {
         <Route path='/hotel-resort' element={ <HotelResort /> } />
         <Route path='/adestramento' element={ <Adestramento /> } />
       </Routes>
-      <Banner />
     </Router>
 
   );

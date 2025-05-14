@@ -1,25 +1,28 @@
 import Carousel from 'react-bootstrap/Carousel';
-import ExampleCarouselImage from '../imagens/pagina-home/Banner-01.jpg';
+import Banner01 from '../imagens/pagina-home/banner.jpg';
+import Banner02 from '../imagens/pagina-home/Banner-01.jpg';
+import Banner03 from '../imagens/pagina-home/banho-tosa.jpg';
 
-function UncontrolledExample() {
+
+function Banner() {
   return (
     <Carousel>
       <Carousel.Item>
-        <ExampleCarouselImage text="First slide" />
+        <img src={Banner01} />
         <Carousel.Caption>
           <h3>First slide label</h3>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <ExampleCarouselImage text="Second slide" />
+        <img src={Banner02} />
         <Carousel.Caption>
           <h3>Second slide label</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <ExampleCarouselImage text="Third slide" />
+        <img src={Banner03} />
         <Carousel.Caption>
           <h3>Third slide label</h3>
           <p>
@@ -31,4 +34,4 @@ function UncontrolledExample() {
   );
 }
 
-export default UncontrolledExample;
+export default Banner;
