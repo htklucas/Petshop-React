@@ -5,7 +5,6 @@ import BanhoTosa from './pages/BanhoTosa';
 import Adestramento from './pages/Adestramento';
 import HotelResort from './pages/HotelResort';
 import NavbarMenu from './pages/Navbarmenu';
-import Banner from './components/Banner'
 
 
 function App() {

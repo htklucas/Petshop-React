@@ -1,7 +1,7 @@
 import Carousel from 'react-bootstrap/Carousel';
-import Banner01 from '../imagens/pagina-home/banner.jpg';
+import Banner01 from '../imagens/pagina-home/Banner-01.jpg';
 import Banner02 from '../imagens/pagina-home/Banner-01.jpg';
-import Banner03 from '../imagens/pagina-home/banho-tosa.jpg';
+import Banner03 from '../imagens/pagina-home/Banner-01.jpg';
 
 
 function Banner() {
